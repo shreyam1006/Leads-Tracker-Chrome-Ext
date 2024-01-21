@@ -46,6 +46,7 @@ inputBtn.addEventListener("click", () => saveLead(inputEl.value));
 saveBtn.addEventListener("dblclick", function () {
   //Get current tab
   chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
+    console.log("####", tabs);
     let url = tabs[0].url;
     saveLead(url);
   });
