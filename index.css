@@ -2,10 +2,10 @@ body {
   margin: 0;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  min-width: 300px;
 }
 
 input {
+  min-width: 300px;
   width: 100%;
   box-sizing: border-bos;
   border: 1px solid #5f9341;
