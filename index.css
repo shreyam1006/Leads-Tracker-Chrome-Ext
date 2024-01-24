@@ -6,6 +6,12 @@ body {
   min-width: 400px;
 }
 
+div {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
 input {
   width: 95%;
   box-sizing: border-bos;
