@@ -2,16 +2,18 @@ body {
   margin: 0;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 400px;
   min-width: 400px;
 }
 
 input {
-  width: 100%;
+  width: 95%;
   box-sizing: border-bos;
   border: 1px solid #5f9341;
   font-weight: bold;
   padding: 10px;
-  margin-bottom: 4px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 input:focus {
@@ -44,4 +46,10 @@ li {
 
 li a {
   color: #5f9341;
+}
+
+h1 {
+  color: #5f9341;
+  margin-bottom: 0px;
+  margin-top: 8px;
 }
